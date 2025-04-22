@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Véletlen Kérdőív</title>
+</head>
+<body>
+    <script>
+        const kerdoivek = [
+            "https://youtube.com",  // helyettesítsd a saját 1. kérdőív linkeddel
+            "https://instagram.com",  // helyettesítsd a saját 2. kérdőív linkeddel
+            "https://facebook.com"   // helyettesítsd a saját 3. kérdőív linkeddel
+        ];
+
+        window.location.href = kerdoivek[Math.floor(Math.random() * kerdoivek.length)];
+    </script>
+</body>
+</html>
